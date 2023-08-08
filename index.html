@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILouxNei Products</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: auto;
+    }
+    .product-row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .product {
+        margin: 15px;
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    @media (min-width: 600px) {
+        .product {
+            width: calc(50% - 30px);
+        }
+    }
+    .related {
+        text-align: left;
+        margin-top: 50px;
+        padding-left: 15px;
+    }
+    .button {
+        background-color: #ff9900;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button img {
+        height: 20px;
+        margin-right: 10px;
+    }
+    .button:hover {
+        background-color: #cc7a00;
+    }
+    img {
+        max-width: 200px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+        <h1>ILouxNei Products</h1>
+        <div class="product-row">
+            <div class="product">
+            <img src="electronic_knitting.jpg" alt="Electronic Knitting Mechanical Counter">
+            <h3>Electronic Knitting Mechanical Counter</h3>
+            <a href="https://www.amazon.com/Electronic-Knitting-Mechanical-Counter-ILouxNei/" class="button" target="_blank">Buy Now on Amazon</a>
+        </div>
+
+        <div class="product">
+            <img src="plant_holder.jpg" alt="Plant Holder">
+            <h3>Aquarium Plant Holder</h3>
+            <a href="https://www.amazon.com/ILouxNei-Aquarium-Plant-Holder-Decorations/" class="button" target="_blank">Buy Now on Amazon</a>
+        </div>
+    </div>
+    <div class="product-row">
+
+        <div class="product">
+            <img src="counters_knitting.jpg" alt="Counters for Knitting, Stitching and Recording">
+            <h3>Counters for Knitting, Stitching, and Recording</h3>
+            <a href="https://www.amazon.com/Counters-Knitting-Stitching-Recording-ILouxNei/" class="button" target="_blank">Buy Now on Amazon</a>
+        </div>
+
+        <div class="product">
+            <img src="toothpaste_dispenser.jpg" alt="Toothpaste Self-Closing Dispenser">
+            <h3>Self-Closing Toothpaste Caps</h3>
+            <a href="https://www.amazon.com/Toothpaste-Self-Closing-Dispenser-Bathroom-ILouxNei/" class="button" target="_blank">Buy Now on Amazon</a>
+        </div>
+    </div>
+
+        <div class="product">
+            <img src="tumbler_clamp.jpg" alt="Pinch Perfect Tumbler Clamp">
+            <h3>Pinch Perfect Tumbler Clamp</h3>
+            <a href="https://www.amazon.com/ILouxNei-Pinch-Perfect-Tumbler-clamp/" class="button" target="_blank">Buy Now on Amazon</a>
+        </div>
+</div>
+</body>
+</html>
+
