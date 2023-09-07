@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILouxNei Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        .product-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+        .product {
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content */
+}
+
+        
+        @media (min-width: 600px) {
+            .product {
+                width: calc(50% - 30px);
+            }
+        }
+        .related {
+            text-align: left;
+            margin-top: 50px;
+            padding-left: 15px;
+        }
+        .button {
+            background-color: #ff9900;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button img {
+            height: 20px;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #cc7a00;
+        }
+        img {
+            max-width: 200px;
+        }
+        </style> 
+</head>
+<body>
+    <div class="container">
+        <h1>ILouxNei Products</h1>
+        <div class="product-row"> <!-- Add this wrapper -->
+            <div class="product">
+                <img src="shoe_holster.jpg" alt="Shoe Holster">
+                <h3>Shoe Holder for Backpack</h3>
+                <a href="https://www.amazon.com/Holder-Backpack-Accessories-Footwear-Sneakers/dp/B0CCXDMXC6" class="button" target="_blank">Buy Now on Amazon</a>
+            </div>
+        </div>
+        <!-- ... rest of your code ... -->
+    
+
+        <div class="related">
+        <h2>Related Products</h2>
+    <ul>
+        <li><a href="https://www.amazon.com/Electronic-Knitting-Mechanical-Counter-ILouxNei/dp/B09YYX7X79" target="_blank">ILouxNei Electronic Knitting Mechanical Counter</a></li>
+        <li><a href="https://www.amazon.com/Counters-Knitting-Stitching-Recording-ILouxNei/dp/B0B136WQ43" target="_blank">ILouxNei Counters for Knitting, Stitching, and Recording</a></li>
+        <li><a href="https://www.amazon.com/Toothpaste-Self-Closing-Dispenser-Bathroom-ILouxNei/dp/B09W1JH99B" target="_blank">ILouxNei Toothpaste Self-Closing Dispenser for Bathroom</a></li>
+        <li><a href="https://www.amazon.com/ILouxNei-Pinch-Perfect-Tumbler-clamp/dp/B0C3HTLXDW" target="_blank">ILouxNei Pinch Perfect Tumbler Clamp</a></li>
+    </ul>
+    </div>
+</body>
+</html>
