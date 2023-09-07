@@ -65,16 +65,30 @@ body {
 img {
     max-width: 200px;
 }
-/* Styling for the WhatsApp Button */
-.button.whatsapp {
+/* Styling for the WhatsApp Section */
+.whatsapp-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    display: inline-block;
     background-color: #25D366;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.button.whatsapp:hover {
+.whatsapp-btn:hover {
     background-color: #128C53;
 }
 
-.button.whatsapp i {
+.whatsapp-btn i {
     margin-right: 10px;
 }
+
